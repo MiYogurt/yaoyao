@@ -54,7 +54,7 @@ users: [
 
 # admin 管理
 
-在前端是有管理权限的，进入 `Dashboard` 新建一个叫 `Administrator` 的角色，把用户添加进去即可，就拥有了管理权限，可在前端 CURD 所有用户的资源。
+在前端是有管理权限的，进入 `Dashboard` 新建一个叫 `Administrator` 的角色，把用户添加进去即可，就拥有了管理权限，可在前端 CURD 所有用户的资源。
 
 
 At the front end, there are administrative privileges, enter the `Dashboard`, create a new role called `Administrator`, add the user can be added, you have administrative privileges, can be in the front end CURD resources of all users.
