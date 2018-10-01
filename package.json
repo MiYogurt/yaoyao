@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "good job",
   "author": "ChenMingMing <belovedyogurt@gmail.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node server",
     "build": "nuxt build",

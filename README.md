@@ -24,6 +24,15 @@ vim .env # edit the config file 修改配置文件
 npm run dev
 ```
 
+# 许可 License
+
+free use for person but keep myname in footer and github link
+
+个人免费（或者开源组织）使用，保留页脚的名字跟 github 链接
+
+For commercial use, please contact
+
+商业使用请联系。
 
 
 if you want edit data in local，you should config admin masterKey in `package.json` script
