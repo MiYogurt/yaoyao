@@ -1,0 +1,408 @@
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+audio,
+embed,
+iframe,
+img,
+object,
+video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #5e217b;
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #f44336;
+}
+.hljs-template-tag {
+  color: #ffef00;
+}
+.hljs-number {
+  color: #c213ea;
+}
+.hljs-attribute,
+.hljs-template-variable,
+.hljs-variable {
+  color: #f44336;
+}
+.hljs-literal {
+  color: #9932cc;
+}
+.hljs-subst {
+  color: #8f8f8f;
+}
+.hljs-name,
+.hljs-section,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-title,
+.hljs-type {
+  color: #f5b928;
+}
+.hljs-bullet,
+.hljs-link,
+.hljs-symbol {
+  color: #090d19;
+}
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-deletion,
+.hljs-string {
+  color: #1968d0;
+}
+.hljs-addition,
+.hljs-comment,
+.hljs-meta,
+.hljs-quote {
+  color: #bf0808;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}
+.reading {
+  padding: 2vw;
+}
+.reading ::selection {
+  color: #fff;
+  background: #314f70;
+}
+.reading.fixed {
+  width: 600px;
+  margin: 0 auto;
+}
+.reading p {
+  line-height: 1.75;
+  padding: 0 1rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 1.5rem;
+  font-family: Monospaced Number, Chinese Quote, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.reading p br {
+  display: none;
+}
+
+.reading dl {
+  margin-bottom: 0.5rem;
+}
+.reading dl dd {
+  margin: 0.5rem 0;
+}
+.reading ol,
+.reading ul {
+  margin-left: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.reading ol li,
+.reading ul li {
+  margin: 0.5rem 0;
+}
+.reading ol li p,
+.reading ul li p {
+  padding: 0;
+}
+.reading dt {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.reading a::not(a > img) {
+  text-decoration: none;
+  color: #3f5eb5;
+  padding: 0 2px;
+}
+.reading a::not(a > img):focus {
+  outline: 1px solid #3f5eb5;
+}
+.reading a:hover {
+  background: #3f5eb5;
+  border-radius: 2px;
+  color: #fff;
+}
+.reading hr {
+  border: none;
+  background: #f5f5f5;
+  height: 1px;
+  margin: 2rem 0;
+}
+.reading h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+}
+.reading h1:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+}
+.reading h2:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+}
+.reading h3:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+}
+.reading h4:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+  font-weight: 900;
+}
+.reading h5:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading h6 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: #314f70;
+  font-weight: 900;
+}
+.reading h6:before {
+  content: '# ';
+  color: #485f86;
+}
+.reading table {
+  margin: 1.5rem 0;
+  max-width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.reading table thead {
+  background: rgba(71, 88, 179, 0.07);
+}
+.reading table tr {
+  border-bottom: 1px solid rgba(96, 125, 139, 0.09);
+}
+.reading table tr td,
+.reading table tr th {
+  padding: 0.5rem;
+}
+.reading table tr:nth-of-type(2n) {
+  background: rgba(71, 88, 179, 0.07);
+}
+.reading img {
+  margin: 1rem auto;
+  max-height: 480px;
+  display: block;
+}
+
+.reading blockquote {
+  border-left: 0.4rem solid #eee;
+  padding: 0.5rem;
+  margin: 1.5rem 0 1.5rem 1rem;
+}
+.reading blockquote p {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.reading pre {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background: #f7f7f7;
+  max-height: 35rem;
+  overflow: scroll;
+}
+.reading pre code {
+  background: transparent;
+  padding: 0;
+}
+.reading code::-webkit-scrollbar,
+.reading pre::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.reading code::-webkit-scrollbar-track,
+.reading pre::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.reading code::-webkit-scrollbar-thumb,
+.reading pre::-webkit-scrollbar-thumb {
+  background-color: #efefef;
+}
+.reading code {
+  font-family: Manaco, monospace;
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 100%;
+  line-height: 1.4;
+  background: #f7f7f7;
+  color: #5e217b;
+}
+.reading code,
+.reading mark {
+  padding: 2px 5px;
+}
+.reading .warning {
+  border-left: 2px solid #ff0;
+}
+.reading .info {
+  border-left: 2px solid #00f;
+}
+.reading .success {
+  border-left: 2px solid green;
+}
+.reading .error {
+  border-left: 2px solid red;
+}
+.reading a.button,
+.reading button {
+  padding: 0.4rem 1rem;
+  border: none;
+  background: #959595;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #fff;
+  border-bottom: 4px solid #555;
+  outline: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  display: inline-block;
+  margin: 0.2rem 0;
+  line-height: 1.2;
+}
+.reading a.button:hover,
+.reading button:hover {
+  background: #555;
+  border-bottom: 4px solid #363636;
+}
+.reading a.button.solid,
+.reading a.button.transparent,
+.reading button.solid,
+.reading button.transparent {
+  background: transparent;
+  border-bottom: 4px solid transparent;
+  color: #2b2b2b;
+  border: 1px solid #2b2b2b;
+}
+.reading a.button.transparent:hover,
+.reading button.transparent:hover {
+  color: #fff;
+  background: #2b2b2b;
+}
+.reading .button-group {
+  display: block;
+  font-size: 0;
+}
+.reading .button-group button {
+  border-radius: 0;
+  display: inline-block;
+  position: relative;
+  border-right: 1px solid #555;
+}
+.reading .button-group button:first-of-type {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+.reading .button-group button:last-of-type {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-right: 0;
+}
+.reading section.box {
+  background: #f9fbfd;
+  border: 1px solid #ececec;
+  padding-bottom: 0;
+}
