@@ -15,7 +15,7 @@ const ParseDashboard = require("parse-dashboard");
 
 const port = process.env.PORT || 3000
 const isProd = process.env.NODE_ENV === 'production'
-const serverURL = isProd ? PRODUCTION_URL + '/parse' : "http://localhost:3000/parse";
+const serverURL = isProd ? process.env.PRODUCTION_URL + '/parse' : "http://localhost:3000/parse";
 
 const api = new ParseServer({
   databaseURI: isProd ? process.env.MONGODB_LINK : "mongodb://localhost/parse",
